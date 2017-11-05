@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="methods">
+  <test name="Chrome test">
+      <classes>
+      <class name="com.org.CIBC.TestngDemo" />
+      <class name="com.org.CIBC.TestngDemo1" />
+    </classes>
+  </test>
+</suite> <!-- Default suite -->

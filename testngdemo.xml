@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+   <test name="Test">
+    <classes>
+      <class name="com.org.CIBC.TestngDemo"/>
+      <methods>
+      <include name="test1"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+<?ignore
+  <test name="Test">
+    <classes>
+      <class name="com.org.CIBC.TestngDemo"/>
+    </classes>
+    <groups>
+      <run>
+        <include name="Functional"/>
+      </run>
+    </groups>
+  </test> <!-- Test -->
+   <test name="Test">
+    <classes>
+      <class name="com.org.CIBC.TestngDemo"/>
+      <methods>
+      <include name="test1"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+?>
+</suite> <!-- Suite -->

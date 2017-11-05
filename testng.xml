@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel = "tests">
+  <test name="Chrome test">
+  <parameter name = "browser" value = "chrome" />
+    <classes>
+      <class name="com.org.CIBC.Table"/>
+    </classes>
+  </test>
+  <test name="Firefox test">
+  <parameter name = "browser" value = "firefox" />
+    <classes>
+      <class name="com.org.CIBC.Table"/>
+    </classes>
+  </test>
+  <test name="IE test">
+  <parameter name = "browser" value = "IE" />
+    <classes>
+      <class name="com.org.CIBC.Table"/>
+    </classes>
+  </test>
+  <test name="HTMLUnitDriver test">
+  <parameter name = "browser" value = "htmlunitdriver" />
+    <classes>
+      <class name="com.org.CIBC.Table"/>
+    </classes>
+  </test>
+</suite> <!-- Default suite -->
