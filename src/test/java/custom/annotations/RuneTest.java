@@ -38,7 +38,7 @@ public class RuneTest {
 		}
 
 		System.out.printf("%nLastModified :%s%n%n", testerInfo.lastModified());
-
+		System.out.printf("This sysout is used to check fetch merge git commands");
 	}
   }
  
